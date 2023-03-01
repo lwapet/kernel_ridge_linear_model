@@ -1,0 +1,705 @@
+ --- reviewing marginal plot on google pixel
+--- Creating / opening data base
+--- Opened database successfully
+--- Validating lesson learned:
+ 
+        Lesson learne: scheduling thread on thread 0
+        part 1 : core_1_state = 0
+        energy efficiency should increase
+    
+before =  11825246681.644842
+after =  12200049874.942522
+variation  374803193.2976799
+
+    lesson learned: increasing scheduling thread on thread 0
+        part 2: core_1_state = 1
+        energy efficiency should increase
+    
+before =  12512872170.679588
+after =  13177222800.830444
+variation  664350630.150856
+ 
+        Lesson learne: scheduling thread on thread 0 
+        part 1 : core_2_state = 0
+        energy efficiency should increase
+    
+before =  11505974967.458677
+after =  12038186403.801477
+variation  532211436.34280014
+
+    lesson learned: increasing scheduling thread on thread 0
+        part 2: core_2_state = 1
+        energy efficiency should increase
+    
+before =  12723410666.858995
+after =  13339431969.993261
+variation  616021303.1342659
+ 
+        Lesson learne: scheduling thread on thread 0 
+        part 1 : core_3_state = 0
+        energy efficiency should increase
+    
+before =  11879691264.075071
+after =  12133244019.384983
+variation  253552755.30991173
+
+    lesson learned: increasing scheduling thread on thread 0
+        part 2: core_3_state = 1
+        energy efficiency should increase
+    
+before =  12516506109.834766
+after =  13335058453.765282
+variation  818552343.9305153
+ 
+        Lesson learne: scheduling thread on thread 0 
+        part 1 : core_4_state = 0
+        energy efficiency should increase
+    
+before =  11714230630.106659
+after =  12114014559.267887
+variation  399783929.1612282
+
+    lesson learned: increasing scheduling thread on thread 0
+        part 2: core_4_state = 1
+        energy efficiency should increase
+    
+before =  12612957731.873638
+after =  13289852022.188591
+variation  676894290.3149529
+ 
+        Lesson learne: scheduling thread on thread 0 
+        part 1 : core_5_state = 0
+        energy efficiency should increase
+    
+before =  11341126852.207376
+after =  11798816028.647593
+variation  457689176.44021606
+
+    lesson learned: increasing scheduling thread on thread 0
+        part 2: core_5_state = 1
+        energy efficiency should increase
+    
+before =  13015076996.03556
+after =  13487823142.62333
+variation  472746146.58776855
+--- Lesson learned:  
+            Lesson learne: scheduling thread on core 0 
+            part 1 :  medium frequency level is low
+            energy efficiency should increase
+        
+ 
+            Lesson learne: scheduling thread on core 0 
+            part 1 :  medium frequency level is low
+            energy efficiency should increase
+        
+before =  11837118528.57936
+after =  12886296786.84192
+variation  1049178258.2625618
+--- Lesson learned:  
+            Lesson learne: scheduling thread on core 0 
+            part 2 :  medium frequency level is medium
+            energy efficiency should increase
+        
+ 
+            Lesson learne: scheduling thread on core 0 
+            part 2 :  medium frequency level is medium
+            energy efficiency should increase
+        
+before =  13355609058.71653
+after =  14061072930.57415
+variation  705463871.8576202
+ 
+        Lesson learne: increasing little_socket_frequency
+        part 1: increasing little_socket_frequency from 0 to 1
+        core_6_state_freq_level = 3
+        energy efficiency should decreases
+    
+before =  12439907839.389835
+after =  13819730875.533398
+variation  1379823036.1435623
+
+    lesson learned: increasing little_socket_frequency
+        part 2:  increasing little_socket_frequency from 1 to 2
+        core_6_state_freq_level = 3
+        energy efficiency should decreases
+    
+before =  13819730875.533503
+after =  13145372981.616825
+variation  -674357893.9166775
+ 
+        Lesson learne: scheduling thread on core 6 
+        part 1 : core_0_state = 0
+        energy efficiency should increase
+    
+before =  9262619533.56462
+after =  11837118528.579317
+variation  2574498995.014698
+ 
+        Lesson learne: core 6 frequency transition is 1->2
+        part 2 : core_0_state = 0
+        energy efficiency should increase
+    
+before =  11837118528.579268
+after =  13355609058.71695
+variation  1518490530.137682
+ 
+        Lesson learne: core 6 frequency transition is 2->3
+        part 3 : core_0_state = 0
+        energy efficiency should increase
+    
+before =  13355609058.716915
+after =  12663408849.335777
+variation  -692200209.3811378
+ 
+        Lesson learne: scheduling thread on core 6 
+        part 4 : core_0_state = 1
+        energy efficiency should increase
+    
+before =  10656637824.55554
+after =  12886296786.841984
+variation  2229658962.2864437
+ 
+        Lesson learne: core 6 frequency transition is 1->2
+        part 5 : core_0_state = 1
+        energy efficiency should increase
+    
+before =  12886296786.842016
+after =  14061072930.573965
+variation  1174776143.7319489
+ 
+        Lesson learne: core 6 frequency transition is 2->3
+        part 6 : core_0_state = 1
+        energy efficiency should increase
+    
+before =  14061072930.574005
+after =  13400491853.022318
+variation  -660581077.5516872
+ 
+        Lesson learne: scheduling thread on core 6 
+        part 1 : core_1_state = 0
+        energy efficiency should increase
+    
+before =  8380786577.278879
+after =  11905641799.011696
+variation  3524855221.7328167
+ 
+        Lesson learne: core 6 frequency transition is 1->2
+        part 2 : core_1_state = 0
+        energy efficiency should increase
+    
+before =  11905641799.01179
+after =  13495963339.689798
+variation  1590321540.678009
+ 
+        Lesson learne: core 6 frequency transition is 2->3
+        part 3 : core_1_state = 0
+        energy efficiency should increase
+    
+before =  13495963339.689787
+after =  12596332000.030865
+variation  -899631339.6589222
+ 
+        Lesson learne: scheduling thread on core 6 
+        part 4 : core_1_state = 1
+        energy efficiency should increase
+    
+before =  11070518993.33969
+after =  12900583771.181746
+variation  1830064777.8420563
+ 
+        Lesson learne: core 6 frequency transition is 1->2
+        part 5 : core_1_state = 1
+        energy efficiency should increase
+    
+before =  12900583771.181944
+after =  13920401018.032032
+variation  1019817246.8500881
+ 
+        Lesson learne: core 6 frequency transition is 2->3
+        part 6 : core_1_state = 1
+        energy efficiency should increase
+    
+before =  13920401018.031961
+after =  13491198040.983961
+variation  -429202977.04800034
+ 
+        Lesson learne: scheduling thread on core 6 
+        part 1 : core_2_state = 0
+        energy efficiency should increase
+    
+before =  8879131842.687061
+after =  11680242900.980392
+variation  2801111058.293331
+ 
+        Lesson learne: core 6 frequency transition is 1->2
+        part 2 : core_2_state = 0
+        energy efficiency should increase
+    
+before =  11680242900.980415
+after =  13472081267.748087
+variation  1791838366.7676716
+ 
+        Lesson learne: core 6 frequency transition is 2->3
+        part 3 : core_2_state = 0
+        energy efficiency should increase
+    
+before =  13472081267.748087
+after =  12628086021.046007
+variation  -843995246.7020798
+ 
+        Lesson learne: scheduling thread on core 6 
+        part 4 : core_2_state = 1
+        energy efficiency should increase
+    
+before =  11463371215.966173
+after =  13002889352.433914
+variation  1539518136.467741
+ 
+        Lesson learne: core 6 frequency transition is 1->2
+        part 5 : core_2_state = 1
+        energy efficiency should increase
+    
+before =  13002889352.434082
+after =  13960257251.717981
+variation  957367899.2838993
+ 
+        Lesson learne: core 6 frequency transition is 2->3
+        part 6 : core_2_state = 1
+        energy efficiency should increase
+    
+before =  13960257251.718058
+after =  13422078025.866184
+variation  -538179225.8518734
+ 
+        Lesson learne: scheduling thread on core 6 
+        part 1 : core_3_state = 0
+        energy efficiency should increase
+    
+before =  9277989898.825714
+after =  11737242142.203133
+variation  2459252243.3774185
+ 
+        Lesson learne: core 6 frequency transition is 1->2
+        part 2 : core_3_state = 0
+        energy efficiency should increase
+    
+before =  11737242142.203121
+after =  13388301047.791483
+variation  1651058905.5883617
+ 
+        Lesson learne: core 6 frequency transition is 2->3
+        part 3 : core_3_state = 0
+        energy efficiency should increase
+    
+before =  13388301047.791544
+after =  12832201710.21074
+variation  -556099337.5808048
+ 
+        Lesson learne: scheduling thread on core 6 
+        part 4 : core_3_state = 1
+        energy efficiency should increase
+    
+before =  11024516611.177046
+after =  13119005374.812674
+variation  2094488763.6356277
+ 
+        Lesson learne: core 6 frequency transition is 1->2
+        part 5 : core_3_state = 1
+        energy efficiency should increase
+    
+before =  13119005374.812773
+after =  13994799934.63746
+variation  875794559.824688
+ 
+        Lesson learne: core 6 frequency transition is 2->3
+        part 6 : core_3_state = 1
+        energy efficiency should increase
+    
+before =  13994799934.637314
+after =  13375870612.871792
+variation  -618929321.765522
+ 
+        Lesson learne: scheduling thread on core 6 
+        part 1 : core_4_state = 0
+        energy efficiency should increase
+    
+before =  9126281847.64901
+after =  11948589139.657993
+variation  2822307292.0089836
+ 
+        Lesson learne: core 6 frequency transition is 1->2
+        part 2 : core_4_state = 0
+        energy efficiency should increase
+    
+before =  11948589139.657978
+after =  13228637768.056713
+variation  1280048628.398735
+ 
+        Lesson learne: core 6 frequency transition is 2->3
+        part 3 : core_4_state = 0
+        energy efficiency should increase
+    
+before =  13228637768.056711
+after =  12485724743.306704
+variation  -742913024.7500076
+ 
+        Lesson learne: scheduling thread on core 6 
+        part 4 : core_4_state = 1
+        energy efficiency should increase
+    
+before =  11091489598.382835
+after =  12862328877.970457
+variation  1770839279.5876217
+ 
+        Lesson learne: core 6 frequency transition is 1->2
+        part 5 : core_4_state = 1
+        energy efficiency should increase
+    
+before =  12862328877.970509
+after =  14185982128.352448
+variation  1323653250.381939
+ 
+        Lesson learne: core 6 frequency transition is 2->3
+        part 6 : core_4_state = 1
+        energy efficiency should increase
+    
+before =  14185982128.352448
+after =  13509076584.48449
+variation  -676905543.8679581
+ 
+        Lesson learne: scheduling thread on core 6 
+        part 1 : core_5_state = 0
+        energy efficiency should increase
+    
+before =  8474518066.682354
+after =  11439060857.658167
+variation  2964542790.975813
+ 
+        Lesson learne: core 6 frequency transition is 1->2
+        part 2 : core_5_state = 0
+        energy efficiency should increase
+    
+before =  11439060857.658115
+after =  13117564794.86698
+variation  1678503937.2088642
+ 
+        Lesson learne: core 6 frequency transition is 2->3
+        part 3 : core_5_state = 0
+        energy efficiency should increase
+    
+before =  13117564794.866966
+after =  12172747205.116539
+variation  -944817589.7504272
+ 
+        Lesson learne: scheduling thread on core 6 
+        part 4 : core_5_state = 1
+        energy efficiency should increase
+    
+before =  11504273326.328815
+after =  13287734197.682821
+variation  1783460871.3540058
+ 
+        Lesson learne: core 6 frequency transition is 1->2
+        part 5 : core_5_state = 1
+        energy efficiency should increase
+    
+before =  13287734197.682875
+after =  14301550940.24135
+variation  1013816742.5584755
+ 
+        Lesson learne: core 6 frequency transition is 2->3
+        part 6 : core_5_state = 1
+        energy efficiency should increase
+    
+before =  14301550940.241348
+after =  13735058668.111805
+variation  -566492272.1295433
+ 
+        Lesson learne: scheduling thread on core 7 
+        part 1 : core_0_state = 0
+        energy efficiency should increase
+    
+before =  10409159581.332928
+after =  13101155261.987251
+variation  2691995680.6543236
+ 
+        Lesson learne: core 7 frequency transition is 1->2
+        part 2 : core_0_state = 0
+        energy efficiency should increase
+    
+before =  13101155261.987288
+after =  13490787615.318268
+variation  389632353.3309803
+ 
+        Lesson learne: core 7 frequency transition is 2->3
+        part 3 : core_0_state = 0
+        energy efficiency should increase
+    
+before =  13490787615.31829
+after =  12980409087.894838
+variation  -510378527.4234524
+ 
+        Lesson learne: scheduling thread on core 7 
+        part 4 : core_0_state = 1
+        energy efficiency should increase
+    
+before =  11291442541.312965
+after =  13770135129.564905
+variation  2478692588.25194
+ 
+        Lesson learne: core 7 frequency transition is 1->2
+        part 5 : core_0_state = 1
+        energy efficiency should increase
+    
+before =  13770135129.564907
+after =  13681051511.768066
+variation  -89083617.79684067
+ 
+        Lesson learne: core 7 frequency transition is 2->3
+        part 6 : core_0_state = 1
+        energy efficiency should increase
+    
+before =  13681051511.768015
+after =  13447194332.637518
+variation  -233857179.13049698
+ 
+        Lesson learne: scheduling thread on core 7 
+        part 1 : core_1_state = 0
+        energy efficiency should increase
+    
+before =  10243541383.923275
+after =  13005788150.488625
+variation  2762246766.5653496
+ 
+        Lesson learne: core 7 frequency transition is 1->2
+        part 2 : core_1_state = 0
+        energy efficiency should increase
+    
+before =  13005788150.488737
+after =  13343078644.751446
+variation  337290494.26270866
+ 
+        Lesson learne: core 7 frequency transition is 2->3
+        part 3 : core_1_state = 0
+        energy efficiency should increase
+    
+before =  13343078644.751411
+after =  13020885062.499418
+variation  -322193582.2519932
+ 
+        Lesson learne: scheduling thread on core 7 
+        part 4 : core_1_state = 1
+        energy efficiency should increase
+    
+before =  11463950578.167278
+after =  13847971722.816076
+variation  2384021144.648798
+ 
+        Lesson learne: core 7 frequency transition is 1->2
+        part 5 : core_1_state = 1
+        energy efficiency should increase
+    
+before =  13847971722.816015
+after =  13762890265.730713
+variation  -85081457.08530235
+ 
+        Lesson learne: core 7 frequency transition is 2->3
+        part 6 : core_1_state = 1
+        energy efficiency should increase
+    
+before =  13762890265.730728
+after =  13404021916.212477
+variation  -358868349.5182514
+ 
+        Lesson learne: scheduling thread on core 7 
+        part 1 : core_2_state = 0
+        energy efficiency should increase
+    
+before =  9972898421.460493
+after =  12841054094.611639
+variation  2868155673.151146
+ 
+        Lesson learne: core 7 frequency transition is 1->2
+        part 2 : core_2_state = 0
+        energy efficiency should increase
+    
+before =  12841054094.611633
+after =  13217149805.175264
+variation  376095710.56363106
+ 
+        Lesson learne: core 7 frequency transition is 2->3
+        part 3 : core_2_state = 0
+        energy efficiency should increase
+    
+before =  13217149805.17531
+after =  12913646676.13677
+variation  -303503129.0385399
+ 
+        Lesson learne: scheduling thread on core 7 
+        part 4 : core_2_state = 1
+        energy efficiency should increase
+    
+before =  11754280398.904362
+after =  13923528125.709408
+variation  2169247726.805046
+ 
+        Lesson learne: core 7 frequency transition is 1->2
+        part 5 : core_2_state = 1
+        energy efficiency should increase
+    
+before =  13923528125.709343
+after =  13877263957.403103
+variation  -46264168.30624008
+ 
+        Lesson learne: core 7 frequency transition is 2->3
+        part 6 : core_2_state = 1
+        energy efficiency should increase
+    
+before =  13877263957.403086
+after =  13476072019.310957
+variation  -401191938.09212875
+ 
+        Lesson learne: scheduling thread on core 7 
+        part 1 : core_3_state = 0
+        energy efficiency should increase
+    
+before =  10479259603.067291
+after =  12961774863.634071
+variation  2482515260.56678
+ 
+        Lesson learne: core 7 frequency transition is 1->2
+        part 2 : core_3_state = 0
+        energy efficiency should increase
+    
+before =  12961774863.634026
+after =  13208067570.463524
+variation  246292706.8294983
+ 
+        Lesson learne: core 7 frequency transition is 2->3
+        part 3 : core_3_state = 0
+        energy efficiency should increase
+    
+before =  13208067570.463634
+after =  12990102399.053627
+variation  -217965171.41000748
+ 
+        Lesson learne: scheduling thread on core 7 
+        part 4 : core_3_state = 1
+        energy efficiency should increase
+    
+before =  11448662426.630182
+after =  13887956184.525347
+variation  2439293757.8951645
+ 
+        Lesson learne: core 7 frequency transition is 1->2
+        part 5 : core_3_state = 1
+        energy efficiency should increase
+    
+before =  13887956184.525248
+after =  13873672334.686134
+variation  -14283849.839113235
+ 
+        Lesson learne: core 7 frequency transition is 2->3
+        part 6 : core_3_state = 1
+        energy efficiency should increase
+    
+before =  13873672334.685911
+after =  13468073104.927235
+variation  -405599229.7586765
+ 
+        Lesson learne: scheduling thread on core 7 
+        part 1 : core_4_state = 0
+        energy efficiency should increase
+    
+before =  10468886697.018517
+after =  13194151535.553978
+variation  2725264838.5354614
+ 
+        Lesson learne: core 7 frequency transition is 1->2
+        part 2 : core_4_state = 0
+        energy efficiency should increase
+    
+before =  13194151535.554024
+after =  13111575464.78933
+variation  -82576070.76469421
+ 
+        Lesson learne: core 7 frequency transition is 2->3
+        part 3 : core_4_state = 0
+        energy efficiency should increase
+    
+before =  13111575464.789232
+after =  12622157399.338387
+variation  -489418065.4508457
+ 
+        Lesson learne: scheduling thread on core 7 
+        part 4 : core_4_state = 1
+        energy efficiency should increase
+    
+before =  11448072977.763056
+after =  13736136758.870638
+variation  2288063781.107582
+ 
+        Lesson learne: core 7 frequency transition is 1->2
+        part 5 : core_4_state = 1
+        energy efficiency should increase
+    
+before =  13736136758.870863
+after =  13924095544.340176
+variation  187958785.46931267
+ 
+        Lesson learne: core 7 frequency transition is 2->3
+        part 6 : core_4_state = 1
+        energy efficiency should increase
+    
+before =  13924095544.340237
+after =  13554129445.252113
+variation  -369966099.0881233
+ 
+        Lesson learne: scheduling thread on core 7 
+        part 1 : core_5_state = 0
+        energy efficiency should increase
+    
+before =  9872818585.672094
+after =  12549321799.015955
+variation  2676503213.3438606
+ 
+        Lesson learne: core 7 frequency transition is 1->2
+        part 2 : core_5_state = 0
+        energy efficiency should increase
+    
+before =  12549321799.01599
+after =  13073476639.413673
+variation  524154840.3976841
+ 
+        Lesson learne: core 7 frequency transition is 2->3
+        part 3 : core_5_state = 0
+        energy efficiency should increase
+    
+before =  13073476639.413477
+after =  12309302042.273832
+variation  -764174597.1396446
+ 
+        Lesson learne: scheduling thread on core 7 
+        part 4 : core_5_state = 1
+        energy efficiency should increase
+    
+before =  11889436560.317684
+after =  14272290071.580112
+variation  2382853511.2624283
+ 
+        Lesson learne: core 7 frequency transition is 1->2
+        part 5 : core_5_state = 1
+        energy efficiency should increase
+    
+before =  14272290071.580004
+after =  13973046067.911333
+variation  -299244003.66867065
+ 
+        Lesson learne: core 7 frequency transition is 2->3
+        part 6 : core_5_state = 1
+        energy efficiency should increase
+    
+before =  13973046067.911377
+after =  13814924220.64906
+variation  -158121847.26231766
+--- Total execution time: 0.7833306789398193 seconds = 0.013055511315663655 mins

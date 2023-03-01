@@ -1,0 +1,29 @@
+,,,,,,,,
+,Préprocessing phases,,,,Model parameters,,, R2 score
+,phone_name, X_input_format, consider_exact_values-of_frequency, populate_inputs, standartize_inputs, alpha of ridge coeff," alpha explored – informations ( strategy – sequential gap or dichotomic ratio  - number_of_iterations/max - LOO error, LOO error tolerance, lambda min max if not 10E-9 and 1)",  R2 score
+,google_pixel_4a_5g, google_pixel_4a_5g, False, False, False,0.0001, False,-5.10375141
+,google_pixel_4a_5g,google_pixel_4a_5g,FALSE,FALSE,FALSE,"0.010100000999999994
+","TRUE (sequential, gap = 0.0001, 100/100 iterations,  loo_error = 42704076.753414, tolerance = 1000)",-2.8991841861
+,google_pixel_4a_5g,google_pixel_4a_5g,FALSE,FALSE,FALSE,"0.0042000009999999975
+
+","TRUE (sequential, gap = 0.0001, 41/100 iterations,  loo_error = 38845969.62451635, tolerance = 100000)",-3.8598567941
+,google_pixel_4a_5g,google_pixel_4a_5g,FALSE,FALSE,FALSE,"0.050000001
+
+","TRUE (sequential, gap = 0.01, 4/100 iterations,  loo_error =46540316.7988, tolerance = 100000)",-0.824454979543
+,,,,,,,,
+,google_pixel_4a_5g,google_pixel_4a_5g,FALSE,FALSE,FALSE,0.60500606753253,"TRUE (dichotomic, ratio = 100, 50/50 iterations,  loo_error = 42098708.62828, tolerance = 1000)",0.38940837
+,google_pixel_4a_5g,google_pixel_4a_5g,FALSE,FALSE,FALSE,0.3660323419,"TRUE (dichotomic, ratio = 100, 100/100 iterations,  loo_error = 42911127.770911, tolerance = 1000)",0.3458275
+,google_pixel_4a_5g,google_pixel_4a_5g,FALSE,FALSE,FALSE,0.826168624,"TRUE (dichotomic, ratio = 100, 19/100 iterations,  loo_error = 41960247.8670, tolerance = 9420000)",0.390260637738
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,False results with “doublons”!!!!!!,,,,,,,
+,google_pixel_4a_5g, google_pixel_4a_5g, False, False, False,0.0001, False,0.4363
+,google_pixel_4a_5g, google_pixel_4a_5g, False, False, False,0.0008, True - 7 - 47740913.2,0.4393
+,google_pixel_4a_5g, google_pixel_4a_5g, False, True, False,0.0001, False,0.2498
+,google_pixel_4a_5g, google_pixel_4a_5g, True, False, False,0.0001, False,-2.0131

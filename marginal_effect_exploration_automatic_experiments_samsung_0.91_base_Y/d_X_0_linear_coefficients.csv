@@ -1,0 +1,39 @@
+Variable,meaning ,d_X_0 (Variation relative to frequency level of Little Socket),asolute d_X_0
+X_0,frequency level of Little Socket,820339557.6513243,820339557.6513243
+X_1,Core 0 state,-436603136.7916219,436603136.7916219
+X_2,Core 1 state,-482410491.5300842,482410491.5300842
+X_3,Core 2 state,-770131371.08033,770131371.08033
+X_4,Core 3 state,-1301639906.0933905,1301639906.0933905
+X_5,frequency level of Big Socket,-168726.91015878506,168726.91015878506
+X_6,Core 4 state,387199828.95405394,387199828.95405394
+X_7,Core 5 state,-19802094.438352123,19802094.438352123
+X_8,Core 6 state,211918146.37941247,211918146.37941247
+X_9,Core 7 state,959626.2509699315,959626.2509699315
+
+
+ Ordered by value of coefficient, the first has the best positive interaction, with frequency level of Little Socket 
+ Variable,meaning ,d_X_0 (Variation relative to frequency level of Little Socket),asolute d_X_0
+X_0,frequency level of Little Socket,820339557.6513243,820339557.6513243
+X_6,Core 4 state,387199828.95405394,387199828.95405394
+X_8,Core 6 state,211918146.37941247,211918146.37941247
+X_9,Core 7 state,959626.2509699315,959626.2509699315
+X_5,frequency level of Big Socket,-168726.91015878506,168726.91015878506
+X_7,Core 5 state,-19802094.438352123,19802094.438352123
+X_1,Core 0 state,-436603136.7916219,436603136.7916219
+X_2,Core 1 state,-482410491.5300842,482410491.5300842
+X_3,Core 2 state,-770131371.08033,770131371.08033
+X_4,Core 3 state,-1301639906.0933905,1301639906.0933905
+
+
+ Ordered by absolute value of coefficients,  the first has the best absolute interaction, with frequency level of Little Socket  
+ Variable,meaning ,d_X_0 (Variation relative to frequency level of Little Socket),asolute d_X_0
+X_4,Core 3 state,-1301639906.0933905,1301639906.0933905
+X_0,frequency level of Little Socket,820339557.6513243,820339557.6513243
+X_3,Core 2 state,-770131371.08033,770131371.08033
+X_2,Core 1 state,-482410491.5300842,482410491.5300842
+X_1,Core 0 state,-436603136.7916219,436603136.7916219
+X_6,Core 4 state,387199828.95405394,387199828.95405394
+X_8,Core 6 state,211918146.37941247,211918146.37941247
+X_7,Core 5 state,-19802094.438352123,19802094.438352123
+X_9,Core 7 state,959626.2509699315,959626.2509699315
+X_5,frequency level of Big Socket,-168726.91015878506,168726.91015878506

@@ -1,0 +1,36 @@
+Variable,meaning ,d_X_8 (Variation relative to frequency level of Big Socket or core 7),asolute d_X_8
+X_0,frequency level of Little Socket,1.5268586020219574e-11,1.5268586020219574e-11
+X_1,Core 0 state,1.0764922583302763e-11,1.0764922583302763e-11
+X_2,Core 1 state,-2.7639098965567034e-11,2.7639098965567034e-11
+X_3,Core 2 state,-1.9360574908973976e-11,1.9360574908973976e-11
+X_4,Core 3 state,-2.3756200162714715e-11,2.3756200162714715e-11
+X_5,Core 4 state,-2.7174935919602337e-11,2.7174935919602337e-11
+X_6,Core 5 state,-7.431809843205948e-13,7.431809843205948e-13
+X_7,frequency level of Medium Socket or core 6,-4.307482707487023e-12,4.307482707487023e-12
+X_8,frequency level of Big Socket or core 7,-3.1623855917091725e-12,3.1623855917091725e-12
+
+
+ Ordered by value of coefficient, the first has the best positive interaction, with frequency level of Big Socket or core 7 
+ Variable,meaning ,d_X_8 (Variation relative to frequency level of Big Socket or core 7),asolute d_X_8
+X_0,frequency level of Little Socket,1.5268586020219574e-11,1.5268586020219574e-11
+X_1,Core 0 state,1.0764922583302763e-11,1.0764922583302763e-11
+X_6,Core 5 state,-7.431809843205948e-13,7.431809843205948e-13
+X_8,frequency level of Big Socket or core 7,-3.1623855917091725e-12,3.1623855917091725e-12
+X_7,frequency level of Medium Socket or core 6,-4.307482707487023e-12,4.307482707487023e-12
+X_3,Core 2 state,-1.9360574908973976e-11,1.9360574908973976e-11
+X_4,Core 3 state,-2.3756200162714715e-11,2.3756200162714715e-11
+X_5,Core 4 state,-2.7174935919602337e-11,2.7174935919602337e-11
+X_2,Core 1 state,-2.7639098965567034e-11,2.7639098965567034e-11
+
+
+ Ordered by absolute value of coefficients,  the first has the best absolute interaction, with frequency level of Big Socket or core 7  
+ Variable,meaning ,d_X_8 (Variation relative to frequency level of Big Socket or core 7),asolute d_X_8
+X_2,Core 1 state,-2.7639098965567034e-11,2.7639098965567034e-11
+X_5,Core 4 state,-2.7174935919602337e-11,2.7174935919602337e-11
+X_4,Core 3 state,-2.3756200162714715e-11,2.3756200162714715e-11
+X_3,Core 2 state,-1.9360574908973976e-11,1.9360574908973976e-11
+X_0,frequency level of Little Socket,1.5268586020219574e-11,1.5268586020219574e-11
+X_1,Core 0 state,1.0764922583302763e-11,1.0764922583302763e-11
+X_7,frequency level of Medium Socket or core 6,-4.307482707487023e-12,4.307482707487023e-12
+X_8,frequency level of Big Socket or core 7,-3.1623855917091725e-12,3.1623855917091725e-12
+X_6,Core 5 state,-7.431809843205948e-13,7.431809843205948e-13

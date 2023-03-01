@@ -1,0 +1,30 @@
+Variable,meaning ,d_X_3 (Variation relative to Medium Socket frequency is freed),asolute d_X_3
+X_0,Little Socket frequency is freed,1842597744.4660563,1842597744.4660563
+X_1,frequency level of Little Socket,-500666862.05401,500666862.05401
+X_2,Number of little cores active,197105480.15433374,197105480.15433374
+X_3,Medium Socket frequency is freed,1547359588.5210288,1547359588.5210288
+X_4,frequency level of Medium Socket or core 6,-982977584.4327703,982977584.4327703
+X_5,Big Socket frequency is freed,3856476177.139558,3856476177.139558
+X_6,frequency level of Big Socket or core 7,-483762880.0395199,483762880.0395199
+
+
+ Ordered by value of coefficient, the first has the best positive interaction, with Medium Socket frequency is freed 
+ Variable,meaning ,d_X_3 (Variation relative to Medium Socket frequency is freed),asolute d_X_3
+X_5,Big Socket frequency is freed,3856476177.139558,3856476177.139558
+X_0,Little Socket frequency is freed,1842597744.4660563,1842597744.4660563
+X_3,Medium Socket frequency is freed,1547359588.5210288,1547359588.5210288
+X_2,Number of little cores active,197105480.15433374,197105480.15433374
+X_6,frequency level of Big Socket or core 7,-483762880.0395199,483762880.0395199
+X_1,frequency level of Little Socket,-500666862.05401,500666862.05401
+X_4,frequency level of Medium Socket or core 6,-982977584.4327703,982977584.4327703
+
+
+ Ordered by absolute value of coefficients,  the first has the best absolute interaction, with Medium Socket frequency is freed  
+ Variable,meaning ,d_X_3 (Variation relative to Medium Socket frequency is freed),asolute d_X_3
+X_5,Big Socket frequency is freed,3856476177.139558,3856476177.139558
+X_0,Little Socket frequency is freed,1842597744.4660563,1842597744.4660563
+X_3,Medium Socket frequency is freed,1547359588.5210288,1547359588.5210288
+X_4,frequency level of Medium Socket or core 6,-982977584.4327703,982977584.4327703
+X_1,frequency level of Little Socket,-500666862.05401,500666862.05401
+X_6,frequency level of Big Socket or core 7,-483762880.0395199,483762880.0395199
+X_2,Number of little cores active,197105480.15433374,197105480.15433374

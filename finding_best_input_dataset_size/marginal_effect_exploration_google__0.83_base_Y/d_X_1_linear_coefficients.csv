@@ -1,0 +1,36 @@
+Variable,meaning ,d_X_1 (Variation relative to Core 0 state),asolute d_X_1
+X_0,frequency level of Little Socket,-1133965416.91435,1133965416.91435
+X_1,Core 0 state,1615413178.2004354,1615413178.2004354
+X_2,Core 1 state,147668242.53326556,147668242.53326556
+X_3,Core 2 state,-153829694.89377084,153829694.89377084
+X_4,Core 3 state,188782560.43218148,188782560.43218148
+X_5,Core 4 state,180297617.82672137,180297617.82672137
+X_6,Core 5 state,-789382191.4511809,789382191.4511809
+X_7,Medium Socket or core 6 frequency,57337582.07944596,57337582.07944596
+X_8,Big Socket or core 7 frequency,176568350.59561536,176568350.59561536
+
+
+ Ordered by value of coefficient, the first has the best positive interaction, with Core 0 state 
+ Variable,meaning ,d_X_1 (Variation relative to Core 0 state),asolute d_X_1
+X_1,Core 0 state,1615413178.2004354,1615413178.2004354
+X_4,Core 3 state,188782560.43218148,188782560.43218148
+X_5,Core 4 state,180297617.82672137,180297617.82672137
+X_8,Big Socket or core 7 frequency,176568350.59561536,176568350.59561536
+X_2,Core 1 state,147668242.53326556,147668242.53326556
+X_7,Medium Socket or core 6 frequency,57337582.07944596,57337582.07944596
+X_3,Core 2 state,-153829694.89377084,153829694.89377084
+X_6,Core 5 state,-789382191.4511809,789382191.4511809
+X_0,frequency level of Little Socket,-1133965416.91435,1133965416.91435
+
+
+ Ordered by absolute value of coefficients,  the first has the best absolute interaction, with Core 0 state  
+ Variable,meaning ,d_X_1 (Variation relative to Core 0 state),asolute d_X_1
+X_1,Core 0 state,1615413178.2004354,1615413178.2004354
+X_0,frequency level of Little Socket,-1133965416.91435,1133965416.91435
+X_6,Core 5 state,-789382191.4511809,789382191.4511809
+X_4,Core 3 state,188782560.43218148,188782560.43218148
+X_5,Core 4 state,180297617.82672137,180297617.82672137
+X_8,Big Socket or core 7 frequency,176568350.59561536,176568350.59561536
+X_3,Core 2 state,-153829694.89377084,153829694.89377084
+X_2,Core 1 state,147668242.53326556,147668242.53326556
+X_7,Medium Socket or core 6 frequency,57337582.07944596,57337582.07944596

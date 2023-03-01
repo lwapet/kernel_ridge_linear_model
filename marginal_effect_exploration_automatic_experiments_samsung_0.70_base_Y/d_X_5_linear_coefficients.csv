@@ -1,0 +1,39 @@
+Variable,meaning ,d_X_5 (Variation relative to frequency level of Big Socket),asolute d_X_5
+X_0,frequency level of Little Socket,0.0,0.0
+X_1,Core 0 state,0.0,0.0
+X_2,Core 1 state,0.0,0.0
+X_3,Core 2 state,0.0,0.0
+X_4,Core 3 state,0.0,0.0
+X_5,frequency level of Big Socket,0.0,0.0
+X_6,Core 4 state,0.0,0.0
+X_7,Core 5 state,0.0,0.0
+X_8,Core 6 state,0.0,0.0
+X_9,Core 7 state,0.0,0.0
+
+
+ Ordered by value of coefficient, the first has the best positive interaction, with frequency level of Big Socket 
+ Variable,meaning ,d_X_5 (Variation relative to frequency level of Big Socket),asolute d_X_5
+X_0,frequency level of Little Socket,0.0,0.0
+X_1,Core 0 state,0.0,0.0
+X_2,Core 1 state,0.0,0.0
+X_3,Core 2 state,0.0,0.0
+X_4,Core 3 state,0.0,0.0
+X_5,frequency level of Big Socket,0.0,0.0
+X_6,Core 4 state,0.0,0.0
+X_7,Core 5 state,0.0,0.0
+X_8,Core 6 state,0.0,0.0
+X_9,Core 7 state,0.0,0.0
+
+
+ Ordered by absolute value of coefficients,  the first has the best absolute interaction, with frequency level of Big Socket  
+ Variable,meaning ,d_X_5 (Variation relative to frequency level of Big Socket),asolute d_X_5
+X_0,frequency level of Little Socket,0.0,0.0
+X_1,Core 0 state,0.0,0.0
+X_2,Core 1 state,0.0,0.0
+X_3,Core 2 state,0.0,0.0
+X_4,Core 3 state,0.0,0.0
+X_5,frequency level of Big Socket,0.0,0.0
+X_6,Core 4 state,0.0,0.0
+X_7,Core 5 state,0.0,0.0
+X_8,Core 6 state,0.0,0.0
+X_9,Core 7 state,0.0,0.0

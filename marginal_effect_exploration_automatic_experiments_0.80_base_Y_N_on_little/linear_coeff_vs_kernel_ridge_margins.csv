@@ -1,0 +1,29 @@
+X_variable,meaning ,kernel ridge margins,linear regression coefficients,difference
+X_0,frequency level of Little Socket,-1.069841301154247e-12,1.0234372829567898e-11,1.1304214130722146e-11
+X_1,Number of little cores active,2.9571549142608734e-12,1.0726337580848574e-11,7.7691826665877e-12
+X_2,frequency level of Medium Socket or core 6,-5.717436328136815e-12,1.0957100920187918e-11,1.6674537248324732e-11
+X_3,frequency level of Big Socket or core 7,1.8263247976074215e-12,2.6728792851792044e-12,8.46554487571783e-13
+
+
+ Ordered by kernel ridge coefficients, lawest is better 
+ X_variable,meaning ,kernel ridge margins,linear regression coefficients,difference
+X_2,frequency level of Medium Socket or core 6,-5.717436328136815e-12,1.0957100920187918e-11,1.6674537248324732e-11
+X_0,frequency level of Little Socket,-1.069841301154247e-12,1.0234372829567898e-11,1.1304214130722146e-11
+X_3,frequency level of Big Socket or core 7,1.8263247976074215e-12,2.6728792851792044e-12,8.46554487571783e-13
+X_1,Number of little cores active,2.9571549142608734e-12,1.0726337580848574e-11,7.7691826665877e-12
+
+
+ Ordered by linear regression coefficients, lawest is better 
+X_variable,meaning ,kernel ridge margins,linear regression coefficients,difference
+X_3,frequency level of Big Socket or core 7,1.8263247976074215e-12,2.6728792851792044e-12,8.46554487571783e-13
+X_0,frequency level of Little Socket,-1.069841301154247e-12,1.0234372829567898e-11,1.1304214130722146e-11
+X_1,Number of little cores active,2.9571549142608734e-12,1.0726337580848574e-11,7.7691826665877e-12
+X_2,frequency level of Medium Socket or core 6,-5.717436328136815e-12,1.0957100920187918e-11,1.6674537248324732e-11
+
+
+ Ordered by absolute difference, between kernel ridge, and linear coefficients, the first has the maximum non linearity variation  
+X_variable,meaning ,kernel ridge margins,linear regression coefficients,difference
+X_2,frequency level of Medium Socket or core 6,-5.717436328136815e-12,1.0957100920187918e-11,1.6674537248324732e-11
+X_0,frequency level of Little Socket,-1.069841301154247e-12,1.0234372829567898e-11,1.1304214130722146e-11
+X_1,Number of little cores active,2.9571549142608734e-12,1.0726337580848574e-11,7.7691826665877e-12
+X_3,frequency level of Big Socket or core 7,1.8263247976074215e-12,2.6728792851792044e-12,8.46554487571783e-13

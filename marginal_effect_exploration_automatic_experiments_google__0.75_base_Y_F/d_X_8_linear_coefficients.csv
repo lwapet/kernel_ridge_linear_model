@@ -1,0 +1,45 @@
+Variable,meaning ,d_X_8 (Variation relative to Medium Socket frequency is freed),asolute d_X_8
+X_0,Little Socket frequency is freed,155450059.44091493,155450059.44091493
+X_1,frequency level of Little Socket,12529232.800967677,12529232.800967677
+X_2,Core 0 state,-446636529.54792416,446636529.54792416
+X_3,Core 1 state,-6151332.451413991,6151332.451413991
+X_4,Core 2 state,-102007286.23659937,102007286.23659937
+X_5,Core 3 state,-414095159.4862756,414095159.4862756
+X_6,Core 4 state,117074112.49465807,117074112.49465807
+X_7,Core 5 state,-290881027.9533519,290881027.9533519
+X_8,Medium Socket frequency is freed,1911573295.8501132,1911573295.8501132
+X_9,Medium Socket or core 6 frequency,-753825856.3109349,753825856.3109349
+X_10,Big Socket frequency is freed,334815323.4439631,334815323.4439631
+X_11,Big Socket or core 7 frequency,84459952.30077358,84459952.30077358
+
+
+ Ordered by value of coefficient, the first has the best positive interaction, with Medium Socket frequency is freed 
+ Variable,meaning ,d_X_8 (Variation relative to Medium Socket frequency is freed),asolute d_X_8
+X_8,Medium Socket frequency is freed,1911573295.8501132,1911573295.8501132
+X_10,Big Socket frequency is freed,334815323.4439631,334815323.4439631
+X_0,Little Socket frequency is freed,155450059.44091493,155450059.44091493
+X_6,Core 4 state,117074112.49465807,117074112.49465807
+X_11,Big Socket or core 7 frequency,84459952.30077358,84459952.30077358
+X_1,frequency level of Little Socket,12529232.800967677,12529232.800967677
+X_3,Core 1 state,-6151332.451413991,6151332.451413991
+X_4,Core 2 state,-102007286.23659937,102007286.23659937
+X_7,Core 5 state,-290881027.9533519,290881027.9533519
+X_5,Core 3 state,-414095159.4862756,414095159.4862756
+X_2,Core 0 state,-446636529.54792416,446636529.54792416
+X_9,Medium Socket or core 6 frequency,-753825856.3109349,753825856.3109349
+
+
+ Ordered by absolute value of coefficients,  the first has the best absolute interaction, with Medium Socket frequency is freed  
+ Variable,meaning ,d_X_8 (Variation relative to Medium Socket frequency is freed),asolute d_X_8
+X_8,Medium Socket frequency is freed,1911573295.8501132,1911573295.8501132
+X_9,Medium Socket or core 6 frequency,-753825856.3109349,753825856.3109349
+X_2,Core 0 state,-446636529.54792416,446636529.54792416
+X_5,Core 3 state,-414095159.4862756,414095159.4862756
+X_10,Big Socket frequency is freed,334815323.4439631,334815323.4439631
+X_7,Core 5 state,-290881027.9533519,290881027.9533519
+X_0,Little Socket frequency is freed,155450059.44091493,155450059.44091493
+X_6,Core 4 state,117074112.49465807,117074112.49465807
+X_4,Core 2 state,-102007286.23659937,102007286.23659937
+X_11,Big Socket or core 7 frequency,84459952.30077358,84459952.30077358
+X_1,frequency level of Little Socket,12529232.800967677,12529232.800967677
+X_3,Core 1 state,-6151332.451413991,6151332.451413991

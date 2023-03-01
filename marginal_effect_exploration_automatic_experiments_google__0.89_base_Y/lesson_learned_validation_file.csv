@@ -1,0 +1,25 @@
+variable to increase, chipset state,  suitable-or-contraindicated, validation score, [accepted transition(s)], [rejected transition(s)]
+
+core 0 state, core 0 ON or OFF,  suitable-the efficiency should increase, NOT_COMPUTABLE, NULL , NULL 
+core 0 state,Core 1 is ON or OFF,suitable - efficiency should increase,100 %,0 -> 1[0.3748031932976799]; 1 -> 2[0.664350630150856]; ,
+core 0 state,Core 2 is ON or OFF,suitable - efficiency should increase,100 %,0 -> 1[0.5322114363428002]; 0 -> 1[0.616021303134266]; ,
+core 0 state,Core 3 is ON or OFF,suitable - efficiency should increase,100 %,0 -> 1[0.2535527553099117]; 0 -> 1[0.8185523439305153]; ,
+core 0 state,Core 4 is ON or OFF,suitable - efficiency should increase,100 %,0 -> 1[0.3997839291612282]; 0 -> 1[0.6768942903149529]; ,
+core 0 state,Core 5 is ON or OFF,suitable - efficiency should increase,100 %,0 -> 1[0.4576891764402161]; 0 -> 1[0.4727461465877686]; ,
+core 0 state,medium socket frequency is low or medium,suitable - efficiency should increase,100.0 %,0 -> 1[1.049178258262562]; 0 -> 1[0.7054638718576203]; ,
+
+little socket frequency,Medium frequency is high,contraindicated -  efficiency should decrease,50 %,1 -> 2[-0.6743578939166776]; ,0 -> 1[1.3798230361435624]; 
+
+core 6 state,Core 0 is ON or OFF,suitable - efficiency should increase,66.66666666666667 %,0 -> 1[2.5744989950146984]; 1 -> 2[1.518490530137682]; 0 -> 1[2.229658962286444]; 1 -> 2[1.1747761437319488]; ,2 -> 3[-0.6922002093811379]; 2 -> 3[-0.6605810775516873]; 
+core 6 state,Core 1 is ON or OFF,suitable - efficiency should increase,66.66666666666667 %,0 -> 1[3.524855221732817]; 1 -> 2[1.5903215406780091]; 0 -> 1[1.8300647778420565]; 1 -> 2[1.0198172468500881]; ,2 -> 3[-0.8996313396589223]; 2 -> 3[-0.42920297704800037]; 
+core 6 state,Core 2 is ON or OFF,suitable - efficiency should increase,66.66666666666667 %,0 -> 1[2.801111058293331]; 1 -> 2[1.7918383667676716]; 0 -> 1[1.539518136467741]; 1 -> 2[0.9573678992838993]; ,2 -> 3[-0.8439952467020798]; 2 -> 3[-0.5381792258518734]; 
+core 6 state,Core 3 is ON or OFF,suitable - efficiency should increase,66.66666666666667 %,0 -> 1[2.459252243377419]; 1 -> 2[1.6510589055883618]; 0 -> 1[2.0944887636356277]; 1 -> 2[0.875794559824688]; ,2 -> 3[-0.5560993375808049]; 2 -> 3[-0.6189293217655221]; 
+core 6 state,Core 4 is ON or OFF,suitable - efficiency should increase,66.66666666666667 %,0 -> 1[2.822307292008984]; 1 -> 2[1.2800486283987351]; 0 -> 1[1.7708392795876218]; 1 -> 2[1.323653250381939]; ,2 -> 3[-0.7429130247500076]; 2 -> 3[-0.6769055438679581]; 
+core 6 state,Core 5 is ON or OFF,suitable - efficiency should increase,66.66666666666667 %,0 -> 1[2.964542790975813]; 1 -> 2[1.6785039372088644]; 0 -> 1[1.7834608713540059]; 1 -> 2[1.0138167425584756]; ,2 -> 3[-0.9448175897504273]; 2 -> 3[-0.5664922721295433]; 
+
+core 7 state,Core 0 is ON or OFF,suitable - efficiency should increase,50.0 %,0 -> 1[2.691995680654324]; 1 -> 2[0.38963235333098034]; 0 -> 1[2.4786925882519397]; ,2 -> 3[-0.5103785274234524]; 1 -> 2[-0.08908361779684067]; 2 -> 3[-0.233857179130497]; 
+core 7 state,Core 1 is ON or OFF,suitable - efficiency should increase,50.0 %,0 -> 1[2.7622467665653496]; 1 -> 2[0.3372904942627087]; 0 -> 1[2.384021144648798]; ,2 -> 3[-0.3221935822519932]; 1 -> 2[-0.08508145708530236]; 2 -> 3[-0.3588683495182514]; 
+core 7 state,Core 2 is ON or OFF,suitable - efficiency should increase,50.0 %,0 -> 1[2.868155673151146]; 1 -> 2[0.37609571056363106]; 0 -> 1[2.1692477268050463]; ,2 -> 3[-0.30350312903853993]; 1 -> 2[-0.04626416830624008]; 2 -> 3[-0.4011919380921288]; 
+core 7 state,Core 3 is ON or OFF,suitable - efficiency should increase,50.0 %,0 -> 1[2.4825152605667804]; 1 -> 2[0.2462927068294983]; 0 -> 1[2.4392937578951646]; ,2 -> 3[-0.21796517141000749]; 1 -> 2[-0.014283849839113237]; 2 -> 3[-0.40559922975867657]; 
+core 7 state,Core 4 is ON or OFF,suitable - efficiency should increase,50.0 %,0 -> 1[2.7252648385354616]; 0 -> 1[2.2880637811075824]; 1 -> 2[0.1879587854693127]; ,1 -> 2[-0.08257607076469421]; 2 -> 3[-0.48941806545084576]; 2 -> 3[-0.36996609908812333]; 
+core 7 state,Core 5 is ON or OFF,suitable - efficiency should increase,50.0 %,0 -> 1[2.6765032133438607]; 1 -> 2[0.5241548403976841]; 0 -> 1[2.3828535112624283]; ,2 -> 3[-0.7641745971396446]; 1 -> 2[-0.29924400366867066]; 2 -> 3[-0.15812184726231768]; 

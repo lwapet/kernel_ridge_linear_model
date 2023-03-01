@@ -1,0 +1,41 @@
+
+########### General option on input datas
+consider_automatization_summaries = True 
+automatization_summaries_folder = "/mnt/c/Users/lavoi/opportunist_task_on_android/scripts_valuable_files/experiment_automatization/summary_files_only"
+
+phone_name = "google_pixel_4a_5g" #  can be "google_pixel_4a_5g", "samsung_galaxy_s8", 
+input_format =  "google_pixel_4a_5g_format" # can be "google_pixel_4a_5g", "samsung_galaxy_s8", or "generic"
+consider_exact_values_of_frequency =  False # considerer exact values of frequencies of O and 1
+populate_inputs_to_considere_thread_combinations_on_same_socket = False
+maximum_number_of_combination = 1000 # Maximum number of combinaitions per configuration when populating X
+one_hot_encoding_of_frequency = False # if we do not consider_exact_values_of_frequency, do we explode frequency encoding , 0,1,1, means midle
+                                      # this procedure should be done after populating X if needed
+standartize_inputs = False
+########### General options of the model
+alpha = 1e-4
+search_ridge_coeff = True
+search_strategy = "dichotomic" # can be sequential, dichotomic, explore_all_values
+ltolerance =  9415743.8 #1000000 #9415743.7# 9415743.7 #0.001                           9415743.7 -> R2 =  0.39128379283199
+lambda_min = 0.000000001 
+lambda_max = 1
+max_iterations = 100
+sequential_gap = 0.00001
+dichotomic_progression_ratio = 100 # progression based on  (max_lambda_candidate - min_labda_canditate) / dichotomic_progression_ratio
+                                   # when choosing the next value of lambda.
+                                   # this ratio is also used when exploring all possible values of lambda
+#default values if not modified
+number_of_iteration_during_exploration = 0
+l_o_o_on_alpha_exploration = ltolerance
+if search_ridge_coeff == False: 
+    search_strategy = "----"
+
+
+compute_marginal_effect = True
+generate_plots = True
+
+# parameter regarding outputs files
+output_data_folder = "model_output_data/"
+result_summary_csv_file_name = "best_R2_exploration_summary.csv"
+linear_coeff_vs_kernel_ridge_margins_file = "marginal_effect_exploration/linear_coeff_vs_kernel_ridge_margins.csv"
+marginal_effect_exploration_folder  = "marginal_effect_exploration/"
+ 

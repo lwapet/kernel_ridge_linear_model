@@ -1,0 +1,21 @@
+Variable,meaning ,d_X_2 (Variation relative to frequency level of Medium Socket or core 6),asolute d_X_2
+X_0,frequency level of Little Socket,4.9012042587795e-12,4.9012042587795e-12
+X_1,Number of little cores active,5.062144368907185e-12,5.062144368907185e-12
+X_2,frequency level of Medium Socket or core 6,-2.098852100593675e-11,2.098852100593675e-11
+X_3,frequency level of Big Socket or core 7,9.319987614071094e-13,9.319987614071094e-13
+
+
+ Ordered by value of coefficient, the first has the best positive interaction, with frequency level of Medium Socket or core 6 
+ Variable,meaning ,d_X_2 (Variation relative to frequency level of Medium Socket or core 6),asolute d_X_2
+X_1,Number of little cores active,5.062144368907185e-12,5.062144368907185e-12
+X_0,frequency level of Little Socket,4.9012042587795e-12,4.9012042587795e-12
+X_3,frequency level of Big Socket or core 7,9.319987614071094e-13,9.319987614071094e-13
+X_2,frequency level of Medium Socket or core 6,-2.098852100593675e-11,2.098852100593675e-11
+
+
+ Ordered by absolute value of coefficients,  the first has the best absolute interaction, with frequency level of Medium Socket or core 6  
+ Variable,meaning ,d_X_2 (Variation relative to frequency level of Medium Socket or core 6),asolute d_X_2
+X_2,frequency level of Medium Socket or core 6,-2.098852100593675e-11,2.098852100593675e-11
+X_1,Number of little cores active,5.062144368907185e-12,5.062144368907185e-12
+X_0,frequency level of Little Socket,4.9012042587795e-12,4.9012042587795e-12
+X_3,frequency level of Big Socket or core 7,9.319987614071094e-13,9.319987614071094e-13

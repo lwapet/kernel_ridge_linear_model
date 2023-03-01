@@ -1,0 +1,36 @@
+Variable,meaning ,d_X_7 (Variation relative to Medium_Socket_State&Frequ),asolute d_X_7
+X_0,Frequ_level_of_littl_Socket,-685256022.3543819,685256022.3543819
+X_1,Core_0_state,743324721.6459719,743324721.6459719
+X_2,Core_1_state,1316411319.6294656,1316411319.6294656
+X_3,Core_2_state,667758618.7725215,667758618.7725215
+X_4,Core_3_state,1478008025.6734989,1478008025.6734989
+X_5,Core_4_state,-513985558.60600644,513985558.60600644
+X_6,Core_5_state,1365770681.5207815,1365770681.5207815
+X_7,Medium_Socket_State&Frequ,1214709278.1704085,1214709278.1704085
+X_8,Big_Socket_State&Freque,-2495378619.8336344,2495378619.8336344
+
+
+ Ordered by value of coefficient, the first has the best positive interaction, with Medium_Socket_State&Frequ 
+ Variable,meaning ,d_X_7 (Variation relative to Medium_Socket_State&Frequ),asolute d_X_7
+X_4,Core_3_state,1478008025.6734989,1478008025.6734989
+X_6,Core_5_state,1365770681.5207815,1365770681.5207815
+X_2,Core_1_state,1316411319.6294656,1316411319.6294656
+X_7,Medium_Socket_State&Frequ,1214709278.1704085,1214709278.1704085
+X_1,Core_0_state,743324721.6459719,743324721.6459719
+X_3,Core_2_state,667758618.7725215,667758618.7725215
+X_5,Core_4_state,-513985558.60600644,513985558.60600644
+X_0,Frequ_level_of_littl_Socket,-685256022.3543819,685256022.3543819
+X_8,Big_Socket_State&Freque,-2495378619.8336344,2495378619.8336344
+
+
+ Ordered by absolute value of coefficients,  the first has the best absolute interaction, with Medium_Socket_State&Frequ  
+ Variable,meaning ,d_X_7 (Variation relative to Medium_Socket_State&Frequ),asolute d_X_7
+X_8,Big_Socket_State&Freque,-2495378619.8336344,2495378619.8336344
+X_4,Core_3_state,1478008025.6734989,1478008025.6734989
+X_6,Core_5_state,1365770681.5207815,1365770681.5207815
+X_2,Core_1_state,1316411319.6294656,1316411319.6294656
+X_7,Medium_Socket_State&Frequ,1214709278.1704085,1214709278.1704085
+X_1,Core_0_state,743324721.6459719,743324721.6459719
+X_0,Frequ_level_of_littl_Socket,-685256022.3543819,685256022.3543819
+X_3,Core_2_state,667758618.7725215,667758618.7725215
+X_5,Core_4_state,-513985558.60600644,513985558.60600644

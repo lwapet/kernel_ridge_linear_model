@@ -1,0 +1,41 @@
+X_variable,meaning ,kernel ridge margins,linear regression coefficients,difference
+X_0,Little Socket frequency is freed,-2692621092.9615374,-788779084.6959198,1903842008.2656176
+X_1,frequency level of Little Socket,1765458987.5354795,1252502249.407257,512956738.12822247
+X_2,Number of little cores active,-651930887.1206828,1759699436.0945003,2411630323.2151833
+X_3,Medium Socket frequency is freed,-1667448858.015105,-2941815777.8892393,1274366919.8741343
+X_4,frequency level of Medium Socket or core 6,115213333.9124066,1974979719.0197794,1859766385.1073728
+X_5,Big Socket frequency is freed,-1025882137.3374146,-1608607790.5529287,582725653.2155141
+X_6,frequency level of Big Socket or core 7,1757872590.8830283,977407524.5902674,780465066.2927608
+
+
+ Ordered by kernel ridge coefficients, highest is better 
+ X_variable,meaning ,kernel ridge margins,linear regression coefficients,difference
+X_1,frequency level of Little Socket,1765458987.5354795,1252502249.407257,512956738.12822247
+X_6,frequency level of Big Socket or core 7,1757872590.8830283,977407524.5902674,780465066.2927608
+X_4,frequency level of Medium Socket or core 6,115213333.9124066,1974979719.0197794,1859766385.1073728
+X_2,Number of little cores active,-651930887.1206828,1759699436.0945003,2411630323.2151833
+X_5,Big Socket frequency is freed,-1025882137.3374146,-1608607790.5529287,582725653.2155141
+X_3,Medium Socket frequency is freed,-1667448858.015105,-2941815777.8892393,1274366919.8741343
+X_0,Little Socket frequency is freed,-2692621092.9615374,-788779084.6959198,1903842008.2656176
+
+
+ Ordered by linear regression coefficients, highest is better 
+X_variable,meaning ,kernel ridge margins,linear regression coefficients,difference
+X_4,frequency level of Medium Socket or core 6,115213333.9124066,1974979719.0197794,1859766385.1073728
+X_2,Number of little cores active,-651930887.1206828,1759699436.0945003,2411630323.2151833
+X_1,frequency level of Little Socket,1765458987.5354795,1252502249.407257,512956738.12822247
+X_6,frequency level of Big Socket or core 7,1757872590.8830283,977407524.5902674,780465066.2927608
+X_0,Little Socket frequency is freed,-2692621092.9615374,-788779084.6959198,1903842008.2656176
+X_5,Big Socket frequency is freed,-1025882137.3374146,-1608607790.5529287,582725653.2155141
+X_3,Medium Socket frequency is freed,-1667448858.015105,-2941815777.8892393,1274366919.8741343
+
+
+ Ordered by absolute difference, between kernel ridge, and linear coefficients, the first has the maximum non linearity variation  
+X_variable,meaning ,kernel ridge margins,linear regression coefficients,difference
+X_2,Number of little cores active,-651930887.1206828,1759699436.0945003,2411630323.2151833
+X_0,Little Socket frequency is freed,-2692621092.9615374,-788779084.6959198,1903842008.2656176
+X_4,frequency level of Medium Socket or core 6,115213333.9124066,1974979719.0197794,1859766385.1073728
+X_3,Medium Socket frequency is freed,-1667448858.015105,-2941815777.8892393,1274366919.8741343
+X_6,frequency level of Big Socket or core 7,1757872590.8830283,977407524.5902674,780465066.2927608
+X_5,Big Socket frequency is freed,-1025882137.3374146,-1608607790.5529287,582725653.2155141
+X_1,frequency level of Little Socket,1765458987.5354795,1252502249.407257,512956738.12822247

@@ -1,0 +1,243 @@
+A -  PREMIERS RESULTATS R2 SCORE DE 0.66 (ce sont ces résultats qui ont été présentés en réunion):
+
+     si X est réprésenté sous le format (little socket level, cores 0 to 5 states, medium socket level, Big socket level),
+       et avec un R score de 0.66 on peut tirer comme conclusions:
+	 a) Voici les variables qui rendent le téléphone beaucoup plus efficace [1]
+      - la présence du thread sur l'un des trois premiers cores
+	- les niveaux de fréquence du Big et Medium socket
+	- l'état des autres cores; le niveau de fréquence du little socket venant en avant dernière position.
+	b) Voici les variables où une non colinéarité avec l'efficacité est suspectée: [1]
+	- l'état des trois premiers cores
+	- le niveau de fréquence des mediums et Big socket
+	- l'état des autres cores et le niveau de fréquence du little socket ont une non colinéarité négligeable.
+	c) En affichant la répartition des point-wise marginal effect
+	- on voit que l'état du core 0 [2] rend le teléphone beaucoup plus efficace que le core 6 ou 7 [3][4]
+	
+	e) Lorsqu'on estime par une régression linéaire d_X_1 (variation de l'efficacité selon l'état du core 0, premier core)
+	 en fonction des autres paramètres
+	on se rend compte en évaluant les coefficients de la regression linaire  [5] que  :
+	- l'état du core 0 et le niveau de fréquence du little socket ont une forte interaction.
+	- l'état du core 0 interagit fortement avec lui même
+	- l'interaction est faible entre l'état du core 0 et le reste des paramètres
+	
+	e) Lorsqu'on affiche d_X_1 (variation de l'efficacité selon l'état du core 1)
+	  en fonction de X_0 (du niveau de fréquence du little socket)
+	  en fonction de X_1 (état du core 0 lui même)
+	  en fonction de X_8 (état du little socket)  [6]
+	on se rend compte que
+	- lorsque le niveau de fréquence du little socket est élévé, d_X_1 a plus de chance d'être élévé, donc la valeur de l'efficacité croît beaucoup plus vite.
+	    En d'autres terme le téléphone est moins efficace.
+	- C'est lorsque le core 0 est allumé que la valeur de l'efficacité augmente selon l'état du core 0 en d'autres termes,
+	  le téléphone devient de moins en moins efficace dès qu'on allume le core 0 s'il était éteint
+	- lorsque le core 8 a une haute valeur de fréquence, c'est mieux de garder le core 0 éteint pour être beaucoup plus efficace.
+	  
+	  
+     [1] Comparaison entre les coefficients linéaires et les moyennes des marginal effects https://gitlab.liris.cnrs.fr/plwapet/scripts_and_relevant_files/-/blob/main/kernel_ridge_linear_model/marginal_effect_exploration_automatic_experiments_0.66_base_Y/linear_coeff_vs_kernel_ridge_margins.csv
+     [2] Distribution des pointwises marginal effects de l'état du core 0 https://gitlab.liris.cnrs.fr/plwapet/scripts_and_relevant_files/-/blob/main/kernel_ridge_linear_model/marginal_effect_exploration_automatic_experiments_0.66_base_Y/point_wise_marginal_distribution_of_core_0_state.png
+     [3] Distribution des pointwises marginal effect de la fréquence du core 6 https://gitlab.liris.cnrs.fr/plwapet/scripts_and_relevant_files/-/blob/main/kernel_ridge_linear_model/marginal_effect_exploration_automatic_experiments_0.66_base_Y/point_wise_marginal_distribution_of_core_6_frequency_level.png
+     [4]  Distribution des pointwises marginal effect de la fréquence du core 7 https://gitlab.liris.cnrs.fr/plwapet/scripts_and_relevant_files/-/blob/main/kernel_ridge_linear_model/marginal_effect_exploration_automatic_experiments_0.66_base_Y/point_wise_marginal_distribution_of_core_7_frequency_level.png
+     [5] Coefficients de la régression linéaire variation de l'efficacité selon l'état du core 1 en fonction des autres paramètres https://gitlab.liris.cnrs.fr/plwapet/scripts_and_relevant_files/-/blob/main/kernel_ridge_linear_model/marginal_effect_exploration_automatic_experiments_0.66_base_Y/d_X_1_linear_coefficients.csv
+     [6]  d_X_1 (variation de l'efficacité selon l'état du core 1)
+	  en fonction de X_0 (du niveau de fréquence du little socket)
+	  en fonction de X_1 (état du core 0 lui même)
+	  en fonction de X_8 (état du little socket)  https://gitlab.liris.cnrs.fr/plwapet/scripts_and_relevant_files/-/blob/main/kernel_ridge_linear_model/marginal_effect_exploration_automatic_experiments_0.66_base_Y/point_wise_marginal_effect_of_core_1_state_over_little_socket__1_srt_and_8_th_cores.png
+	  
+	  
+	
+
+
+B- RESULTATS OBTENUS AVEC UN R2 SCORE DE 0.89
+OBSERVATION DE L'EFFICACITE ENERGETIQUE REELLE (Higher is better) [1]
+
+--- D'après les valeurs des coefficients du modèle ridge [2]
+  1- Les fréquences des BIG et Medium sockets influencent positivement l'efficacité énergétique
+  2- Il s'en suit l'état du core 0 et la fréquence du little socket. 
+  3- Enfin l'état des autres cores est moins prioritaire 
+  
+--- D'après les différences entre les valeurs de coefficients de modèle ridge et ceux du modèle linéaire [2]
+  1- l'état des little cores ont une forte non linéarité avec l'efficacité
+  2- La fréquence du Big core a aussi une assez forte non linéarité avec l'efficacité
+
+
+[1] Lien vers le dossier des résultats avec un R2 score de 0.89 https://gitlab.liris.cnrs.fr/plwapet/scripts_and_relevant_files/-/tree/main/kernel_ridge_linear_model/marginal_effect_exploration_automatic_experiments_0.89_base_Y
+[2] Valeur des coefficients du modèle ridge https://gitlab.liris.cnrs.fr/plwapet/scripts_and_relevant_files/-/blob/main/kernel_ridge_linear_model/marginal_effect_exploration_automatic_experiments_0.89_base_Y/linear_coeff_vs_kernel_ridge_margins.csv
+	
+C- CORRELATION ENTRE LES BIG CORES ET LES LITTLE CORES -
+ANALYSE SYSTEMATIQUE: NOUS EVALUONS PAR DES GRAPHES TOUTES LES COMBINAISONS 
+D_Big_core - Little core state/freq et D_little_core/state frequ - Big core
+
+	PARTIE 1: VARIABLE CIBLE: FREQUENCE DU BIG CORE (analyse de d_X_8)
+	--- D'après les coeffecients de d_X_8 par rapport aux autres variables [1]
+	1- La fréquence du Big socket interagit positivement[2] avec l'état des core 0 à 6 (excepté le core 4).
+	2- La fréquence du Big socket interagit négativement avec la fréquence des autres sockets. 
+	3- comparé aux autres interaction, la fréquence du Big core n'interagit presque pas avec lui même
+       	(l'efficacité est donc presque linéaire avec la fréquence du Big socket)
+		
+	--- D'après la courbe de d_X_8 en fonction des autres variables X_0 (fréquence du little socket), 
+	                                     X_1 à X_6 (état des little cores) 
+							  et X_7 (fréquenc des medium cores) et X_8 (fréquence du Big core) [3]
+	1- Lorsque la fréquence du little socket est basse, 
+	l'augmentation de la fréquence du Big core augmente aussi l'efficité.
+	2- Lorsque la fréquence du little socket est élevée, 
+	l'augmentation de la fréquence du Big core diminue aussi l'efficité.
+	3- Lorsque que le core 0 est allumé, augmenter la fréquence du Big core augmente l'efficacité.
+	4- Quand que le core 0 est éteint, augmenter la fréquence du Big core n'a pas d'impact sur l'efficacité l'efficacité.
+	6- Lorsque que le core 2 n'a pas de thread, augmenter la fréquence du Big core n'a aucun effet sur l'efficacité.
+      7- Lorsque que le core 2 fonctionne, augmenter la fréquence du Big core augmente l'efficacité.
+
+################################  IMPORTANT NOTE
+Mes yeux ont été ouverts sur une certaine réguralité dans le format des conclusions que l'on peut tirer à partir des courbes. 
+Ainsi, à partir d'ici  je les consignerai dans un tableau dont voici la description des colonnes: 
+
+
+Variable cible (X_c): IL s'agit ici de la variable que l'on fait varier, et selon laquelle on évalue la variation de l'efficacité.
+   Exemple: on veut voir ce qui se passe lorsqu'on augmente la fréquence du Big core, la variable cible est " X_8 = la fréquence du Big core augmente"
+Certitude visuelle: Elle est forte lorsque la lesson learned est clairement lisible sur les graphes, et elle est faible si ce n'est pas le cas. 
+Certitude Numérique: Elle est forte si l'observation est confirmé par les valeur numériques des coefficient de d_X_c par rapport aux autres variables, et elle est faible lorsque ce n'est pas le cas. 
+
+
+Comportement local de l'efficacité: Il s'agit du comportement de l'efficacité décrit par la lesson learned dans les condition des colonnes de la même ligne. 
+    Exemple: selon la phrase :  Si le core 0 est éteint, augmenter la fréquence du big core n'a pas d'impact sur l'efficacité. 
+          le comportement est "l'efficacité ne varie pas, ou l'impact sur l'efficacité est nul"
+Variable observée et valeur: Il s'agit d'une autre variable, dont à une certaine valeur, si l'on varie la variable cible, 
+                     l'efficacité a un comportement local capturé par la lesson learned. 
+    Exemple: Si le core 0 est éteint, augmenter la fréquence du big core n'a pas d'impact sur l'efficacité. 
+               La variable observée est "l'état du core 0" et sa valeur est 0. 
+    
+ 
+Comportement global de l'efficacité: Ici il s'agit d'une observation d'ordre générale sur le comportement de l'efficacité.
+    Exemple: Dans la phrase "De manière générale on est le moins efficace avec la fréquence du little socket élevée"
+     le comportement global de l'efficacité est "L'efficacité a la valeur minimale"
+Variable observée et valeur: Il s'agit de la variable observée et de sa valeur lorsque le comportement global est noté.
+    Exemple: dans la phrase "De manière générale on est le moins efficace avec la fréquence du little socket élevée"
+        La variable observée est "la fréquence du little socket" sa valeur est "Maximum"
+
+Les résultats sont deshormais consignés dans les tableaux [4] et [5]
+
+################################  END IMPORTANT NOTE
+	PARTIE 2: VARIABLE CIBLE: FREQUENCE DU MEDIUM CORE (analyse de d_X_7)
+	--- D'après les coeffecients de d_X_7 par rapport aux autres variables [1]
+	1- La fréquence du Medium socket interagit positivement avec presque tous les cores excepté le core 4
+	2- Il interagit négativement avec la fréquence du Little et du Big socket
+
+      --- Les résultats de l'analyse des graphes sont contenus dans les tableaux [4] et [5]
+     
+     PARTIE 3: VARIABLE CIBLE: FREQUENCE DU LITTLE CORE (analyse de d_X_0)
+	--- D'après les coeffecients de d_X_0 par rapport aux autres variables [1]
+	1- La fréquence du Little socket interagit positivement avec elle même
+	(la dépendance entre la fréquence du little socket et l'efficacité énergétique est fortement non linéaire)
+	2- Il interagit de manière assez négligeable  avec les little cores
+	3- La fréquence du Little socket interagit négativement avec Les fréquences des Bit et Medium sockets
+	
+      --- Les résultats de l'analyse des graphes sont contenus dans les tableaux [4] et [5]
+
+     
+      PARTIE 4: VARIABLE CIBLE: FREQUENCE DU LITTLE CORE (analyse de d_X_0)
+     
+	--- D'après les coeffecients de d_X_1 par rapport aux autres variables [1]
+	1- L'état du core 0 interagit positivement[2] avec lui même, 
+	   l'état du core 3, de la fréquence du medium socket.
+	2- L'état du core 0 interagit négativement avec la fréquence du little socket, 
+	   du core 5 et du core 1 
+	3 - L'interaction entre l'état du core 0 et les fréquences des autres sockets et négligeable. 
+     --- Les résultats de l'analyse des graphes sont contenus dans les tableaux [4] et [5]
+
+
+
+[1] Coeffecients de d_X_8 par rapport aux autres variables https://gitlab.liris.cnrs.fr/plwapet/scripts_and_relevant_files/-/blob/main/kernel_ridge_linear_model/marginal_effect_exploration_automatic_experiments_0.89_base_Y/d_X_8_linear_coefficients.csv
+[2] Une interaction est dite poisitive lorsque le coefficient de l'interaction entre deux variables est positif: 
+     On soupçonne qu'en augmentant ces deux variables à la fois, le téléphone est beaucoup plus efficace. 
+     C'est l'inverse qui se passe lorsque l'interaction est négative.
+[3] Courbe de d_X_8 en fonction des autres variables https://gitlab.liris.cnrs.fr/plwapet/scripts_and_relevant_files/-/blob/main/kernel_ridge_linear_model/marginal_effect_exploration_automatic_experiments_0.89_base_Y/X_8_over_X_0__X_1__X_2__X_3__X_4__X_5__X_6__X_7__X_8.png
+							
+[4] Tableau récapitulant de manière ordonnées, les observations locales faites jusqu'ici, https://gitlab.liris.cnrs.fr/plwapet/scripts_and_relevant_files/-/blob/main/kernel_ridge_linear_model/local_lesson_learned_as_table.ods
+[5] Tableau récapitulant de manière ordonnées, les observations globales faites jusqu'ici, https://gitlab.liris.cnrs.fr/plwapet/scripts_and_relevant_files/-/blob/main/kernel_ridge_linear_model/global_lesson_learned_as_table.ods
+
+
+
+
+
+PARTIE C: RESULTATS OBTENUS AVEC LE SAMSUNG, LE MODELE AYANT UN R2 SCORE DE 0.92
+          LES SOUS PARTIES CONCOURENT UNE ANALYSE SYSTEMATIQUE ENTRE LES BIG CORES ET LES LITTLES CORES
+
+    PARTIE 1: CONCLUSIONS GENERALES
+   ---- D'après les coefficients de kernel ridge model, voici les variable qui aident à augmenter l'efficacité énergétique
+    1- Le niveau de fréquence du Big core  
+    2- Le niveau de fréquence du Little core
+    3 -L'état des cores (sans ordre apparrent)
+    
+    4 - Les niveau de fréquence des Big cores et little core ont une dépendance les plus linéaires avec l'efficacité.  
+    PARTIE 2: VARIABLE CIBLE : niveau de fréquence du Big Core  (X_5)
+    
+    --- D'après l'estimation de d_X_5 en fonction des autres variables
+    1 - Le niveau de fréquence du Big core interagit le plus avec l'état du premier Big Core 
+    2 - Le niveau de fréquence du Big core interagit aussi positivement avec celle du Litte socket et du core 0
+    2 - L'interaction est moins grande avec elle même ou avec le niveau de fréquence des autres cores secondaires
+                  (****qui ne sont pas les premiers des sockets****). 
+			
+    --- Les résultats de l'analyse des graphes sont contenus dans les tableaux [4] et [5] plus haut
+   
+    Note : les troisièmes cores de chaque socket on un comportement remarquable.
+    La fréquence du little socket interagit positivement avec le core 6. (le core 6 allumé est une bonne précondition pour augmenter la fréquence du little socket)
+    La fréquence du Big socket interagit négativement avec le core 2. (avec le core 2 allumé il est déconseillé d'augmenter la fréquence du little socket)
+
+
+
+    PARTIE 3: VARIABLE CIBLE: niveau de fréquence du Little socket
+    --- D'après l'estimation de d_X_0 en fonction des autres variables
+    1 - Le niveau de fréquence du little socket interagit positivement avec certains Big cores, le 4 et le 6
+    2 - Ensuite le niveau de fréquence du little socket interagit positivement avec la fréquence du Big socket
+    3 - Le niveau de fréquence du Little core interagit très négativement avec alle même. Plus elle est élévée moins il faut l'augmenter. 
+    
+    
+	
+    PARTIE 4: VARIABLE CIBLE: état core 0
+    
+    --- D'après l'estimation de d_X_1 en fonction des autres variables
+    1- l'état du core 0 interagit très positivement avec la fréquence du Big socket et le core 6
+    2- l'état du core 0 interagit très négativement avec l'état des cores 3 et 4, et la fréquence du little socket.
+
+    Le reste des lessons learned se retrouvent dans les tableaux global et local lesson learned. 
+
+    PARTIE 4: VARIABLE CIBLE: état core 4 (premier Big core)
+    --- D'après l'estimation de d_X_6 en fonction des autres variables, en en prenant en compte les derniers résultat
+    1- l'état du core 4 interagit positivement avec les fréquences des Big cores et des Littles cores 
+    1- l'état du core 4 interagit avec l'état des autres cores
+       Bref avant d'allumer le core 6 il est préférable d'avoir les fréquences des sockets élevé que d'avoir beaucoup de cores allumés. 
+      Aussi les interactions entre les cores ne sont pas du tout similaires d'un Big core à un autre. 
+
+
+
+Salut Vlad, comme compte rendu d'aujourd'hui.
+1- J'ai continué avec l'extraction des lessons learned. 
+Je me suis focalisé sur la variation de l'efficacité en fonction de la fréquence des littles cores. 
+J'ai aussi commencé à analyser les résultats avec comme variable cible l'état d'un core (celui du core 0)
+Il me restera l'analyse suivant la variable (état d'un big core, le core 4)
+Pour l'instant les résultats sont encore consignés dans le fichier excel [1]
+
+2- 
+
+Salut Vlad, comme compte rendu d'aujourd'hui, 
+
+1 - le expés que j'ai démarré se sont interrompus à la 14  configuration à cause d'un erreur liées au powermeter. 
+     Mais avec les données actuelle le R2 score est resté autour de 0.88
+     J'ai encore démarré 50 expés pour ce week-end.
+     
+2- J'ai terminé avec l'extration des lessons learned que je prévoyais extraire
+   Aujourd'hui je me suis focalisé sur l'état des cores comme variables cible au regard des autres variables 
+   Je me rend compte que les conclusions varient beaucoup d'un little core à un autre little core, pareil d'un big core à un autre Big core. 
+   J'ai extrait les résultats avec comme variables cibles les core 0 et 4 (Un little et 1 Big core)
+   
+   Lundi, Je prévois les re-analyser puis les rregrouper dans un fichier partagé et modifiable. 
+   Je prévois comparer les lessons learned en fonction des téléphones. 
+   Mais les lessons learned tirées jusqu'ici sont déjà lisible sur les dernières colonnes des tableaux excels cité dans un précédent compte rendu plus haut ([1] et [2]) ainsi que le dossier des résultats. [3]
+      
+
+[3] Dossier des résultats à partir desquels ont été extrait les lesson learned. https://gitlab.liris.cnrs.fr/plwapet/scripts_and_relevant_files/-/tree/main/kernel_ridge_linear_model/marginal_effect_exploration_automatic_experiments_samsung_0.92_base_Y
+
+
+Bon week-end Vlad. 
+
+
+
+

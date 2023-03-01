@@ -1,0 +1,36 @@
+Variable,meaning ,d_X_1 (Variation relative to Core 0 state),asolute d_X_1
+X_0,frequency level of Little Socket,-1391298948.8166475,1391298948.8166475
+X_1,Core 0 state,750149154.3042555,750149154.3042555
+X_2,Core 1 state,-107553122.81035838,107553122.81035838
+X_3,Core 2 state,-1318347910.3446991,1318347910.3446991
+X_4,Core 3 state,435706436.9187136,435706436.9187136
+X_5,Core 4 state,-348505861.92560476,348505861.92560476
+X_6,Core 5 state,214660005.46119523,214660005.46119523
+X_7,Medium Socket or core 6 frequency,493791230.6147071,493791230.6147071
+X_8,Big Socket or core 7 frequency,338264775.64442056,338264775.64442056
+
+
+ Ordered by value of coefficient, the first has the best positive interaction, with Core 0 state 
+ Variable,meaning ,d_X_1 (Variation relative to Core 0 state),asolute d_X_1
+X_1,Core 0 state,750149154.3042555,750149154.3042555
+X_7,Medium Socket or core 6 frequency,493791230.6147071,493791230.6147071
+X_4,Core 3 state,435706436.9187136,435706436.9187136
+X_8,Big Socket or core 7 frequency,338264775.64442056,338264775.64442056
+X_6,Core 5 state,214660005.46119523,214660005.46119523
+X_2,Core 1 state,-107553122.81035838,107553122.81035838
+X_5,Core 4 state,-348505861.92560476,348505861.92560476
+X_3,Core 2 state,-1318347910.3446991,1318347910.3446991
+X_0,frequency level of Little Socket,-1391298948.8166475,1391298948.8166475
+
+
+ Ordered by absolute value of coefficients,  the first has the best absolute interaction, with Core 0 state  
+ Variable,meaning ,d_X_1 (Variation relative to Core 0 state),asolute d_X_1
+X_0,frequency level of Little Socket,-1391298948.8166475,1391298948.8166475
+X_3,Core 2 state,-1318347910.3446991,1318347910.3446991
+X_1,Core 0 state,750149154.3042555,750149154.3042555
+X_7,Medium Socket or core 6 frequency,493791230.6147071,493791230.6147071
+X_4,Core 3 state,435706436.9187136,435706436.9187136
+X_5,Core 4 state,-348505861.92560476,348505861.92560476
+X_8,Big Socket or core 7 frequency,338264775.64442056,338264775.64442056
+X_6,Core 5 state,214660005.46119523,214660005.46119523
+X_2,Core 1 state,-107553122.81035838,107553122.81035838

@@ -1,0 +1,36 @@
+Variable,meaning ,d_X_1 (Variation relative to Core 0 state),asolute d_X_1
+X_0,frequency level of Little Socket,-724774970.647948,724774970.647948
+X_1,Core 0 state,1722865904.1125815,1722865904.1125815
+X_2,Core 1 state,-210195775.6223024,210195775.6223024
+X_3,Core 2 state,193464803.33934504,193464803.33934504
+X_4,Core 3 state,165763215.43805712,165763215.43805712
+X_5,Core 4 state,-45986474.14333384,45986474.14333384
+X_6,Core 5 state,-103023909.66355129,103023909.66355129
+X_7,Medium Socket or core 6 frequency,-370818702.4458487,370818702.4458487
+X_8,Big Socket or core 7 frequency,370717091.7717444,370717091.7717444
+
+
+ Ordered by value of coefficient, the first has the best positive interaction, with Core 0 state 
+ Variable,meaning ,d_X_1 (Variation relative to Core 0 state),asolute d_X_1
+X_1,Core 0 state,1722865904.1125815,1722865904.1125815
+X_8,Big Socket or core 7 frequency,370717091.7717444,370717091.7717444
+X_3,Core 2 state,193464803.33934504,193464803.33934504
+X_4,Core 3 state,165763215.43805712,165763215.43805712
+X_5,Core 4 state,-45986474.14333384,45986474.14333384
+X_6,Core 5 state,-103023909.66355129,103023909.66355129
+X_2,Core 1 state,-210195775.6223024,210195775.6223024
+X_7,Medium Socket or core 6 frequency,-370818702.4458487,370818702.4458487
+X_0,frequency level of Little Socket,-724774970.647948,724774970.647948
+
+
+ Ordered by absolute value of coefficients,  the first has the best absolute interaction, with Core 0 state  
+ Variable,meaning ,d_X_1 (Variation relative to Core 0 state),asolute d_X_1
+X_1,Core 0 state,1722865904.1125815,1722865904.1125815
+X_0,frequency level of Little Socket,-724774970.647948,724774970.647948
+X_7,Medium Socket or core 6 frequency,-370818702.4458487,370818702.4458487
+X_8,Big Socket or core 7 frequency,370717091.7717444,370717091.7717444
+X_2,Core 1 state,-210195775.6223024,210195775.6223024
+X_3,Core 2 state,193464803.33934504,193464803.33934504
+X_4,Core 3 state,165763215.43805712,165763215.43805712
+X_6,Core 5 state,-103023909.66355129,103023909.66355129
+X_5,Core 4 state,-45986474.14333384,45986474.14333384

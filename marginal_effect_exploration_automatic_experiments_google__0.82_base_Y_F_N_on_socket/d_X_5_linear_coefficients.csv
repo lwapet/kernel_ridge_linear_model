@@ -1,0 +1,30 @@
+Variable,meaning ,d_X_5 (Variation relative to Big Socket frequency is freed),asolute d_X_5
+X_0,Little Socket frequency is freed,314532714.8902379,314532714.8902379
+X_1,frequency level of Little Socket,27952510.553397465,27952510.553397465
+X_2,Number of little cores active,124918271.52891272,124918271.52891272
+X_3,Medium Socket frequency is freed,1636567551.606268,1636567551.606268
+X_4,frequency level of Medium Socket or core 6,-628965248.2845355,628965248.2845355
+X_5,Big Socket frequency is freed,2011777776.3853428,2011777776.3853428
+X_6,frequency level of Big Socket or core 7,-582915113.0325375,582915113.0325375
+
+
+ Ordered by value of coefficient, the first has the best positive interaction, with Big Socket frequency is freed 
+ Variable,meaning ,d_X_5 (Variation relative to Big Socket frequency is freed),asolute d_X_5
+X_5,Big Socket frequency is freed,2011777776.3853428,2011777776.3853428
+X_3,Medium Socket frequency is freed,1636567551.606268,1636567551.606268
+X_0,Little Socket frequency is freed,314532714.8902379,314532714.8902379
+X_2,Number of little cores active,124918271.52891272,124918271.52891272
+X_1,frequency level of Little Socket,27952510.553397465,27952510.553397465
+X_6,frequency level of Big Socket or core 7,-582915113.0325375,582915113.0325375
+X_4,frequency level of Medium Socket or core 6,-628965248.2845355,628965248.2845355
+
+
+ Ordered by absolute value of coefficients,  the first has the best absolute interaction, with Big Socket frequency is freed  
+ Variable,meaning ,d_X_5 (Variation relative to Big Socket frequency is freed),asolute d_X_5
+X_5,Big Socket frequency is freed,2011777776.3853428,2011777776.3853428
+X_3,Medium Socket frequency is freed,1636567551.606268,1636567551.606268
+X_4,frequency level of Medium Socket or core 6,-628965248.2845355,628965248.2845355
+X_6,frequency level of Big Socket or core 7,-582915113.0325375,582915113.0325375
+X_0,Little Socket frequency is freed,314532714.8902379,314532714.8902379
+X_2,Number of little cores active,124918271.52891272,124918271.52891272
+X_1,frequency level of Little Socket,27952510.553397465,27952510.553397465

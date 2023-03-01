@@ -1,0 +1,36 @@
+Variable,meaning ,d_X_1 (Variation relative to Core 0 state),asolute d_X_1
+X_0,frequency level of Little Socket,-792565220.225299,792565220.225299
+X_1,Core 0 state,1882642211.4522169,1882642211.4522169
+X_2,Core 1 state,-321190269.3511689,321190269.3511689
+X_3,Core 2 state,181951933.97881776,181951933.97881776
+X_4,Core 3 state,1011129329.200044,1011129329.200044
+X_5,Core 4 state,111192717.93385358,111192717.93385358
+X_6,Core 5 state,-1209947092.8364544,1209947092.8364544
+X_7,Medium Socket or core 6 frequency,364250128.5169419,364250128.5169419
+X_8,Big Socket or core 7 frequency,51425951.38153581,51425951.38153581
+
+
+ Ordered by value of coefficient, the first has the best positive interaction, with Core 0 state 
+ Variable,meaning ,d_X_1 (Variation relative to Core 0 state),asolute d_X_1
+X_1,Core 0 state,1882642211.4522169,1882642211.4522169
+X_4,Core 3 state,1011129329.200044,1011129329.200044
+X_7,Medium Socket or core 6 frequency,364250128.5169419,364250128.5169419
+X_3,Core 2 state,181951933.97881776,181951933.97881776
+X_5,Core 4 state,111192717.93385358,111192717.93385358
+X_8,Big Socket or core 7 frequency,51425951.38153581,51425951.38153581
+X_2,Core 1 state,-321190269.3511689,321190269.3511689
+X_0,frequency level of Little Socket,-792565220.225299,792565220.225299
+X_6,Core 5 state,-1209947092.8364544,1209947092.8364544
+
+
+ Ordered by absolute value of coefficients,  the first has the best absolute interaction, with Core 0 state  
+ Variable,meaning ,d_X_1 (Variation relative to Core 0 state),asolute d_X_1
+X_1,Core 0 state,1882642211.4522169,1882642211.4522169
+X_6,Core 5 state,-1209947092.8364544,1209947092.8364544
+X_4,Core 3 state,1011129329.200044,1011129329.200044
+X_0,frequency level of Little Socket,-792565220.225299,792565220.225299
+X_7,Medium Socket or core 6 frequency,364250128.5169419,364250128.5169419
+X_2,Core 1 state,-321190269.3511689,321190269.3511689
+X_3,Core 2 state,181951933.97881776,181951933.97881776
+X_5,Core 4 state,111192717.93385358,111192717.93385358
+X_8,Big Socket or core 7 frequency,51425951.38153581,51425951.38153581

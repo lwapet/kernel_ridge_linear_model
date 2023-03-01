@@ -1,0 +1,36 @@
+Variable,meaning ,d_X_1 (Variation relative to Core 0 state),asolute d_X_1
+X_0,frequency level of Little Socket,-522746275.70211506,522746275.70211506
+X_1,Core 0 state,1556928765.080413,1556928765.080413
+X_2,Core 1 state,-1068797091.4579843,1068797091.4579843
+X_3,Core 2 state,-1275692183.4677234,1275692183.4677234
+X_4,Core 3 state,-470084384.5022531,470084384.5022531
+X_5,Core 4 state,-147218638.21377346,147218638.21377346
+X_6,Core 5 state,-1361994084.222492,1361994084.222492
+X_7,Medium Socket or core 6 frequency,792967381.9594053,792967381.9594053
+X_8,Big Socket or core 7 frequency,175442572.10140774,175442572.10140774
+
+
+ Ordered by value of coefficient, the first has the best positive interaction, with Core 0 state 
+ Variable,meaning ,d_X_1 (Variation relative to Core 0 state),asolute d_X_1
+X_1,Core 0 state,1556928765.080413,1556928765.080413
+X_7,Medium Socket or core 6 frequency,792967381.9594053,792967381.9594053
+X_8,Big Socket or core 7 frequency,175442572.10140774,175442572.10140774
+X_5,Core 4 state,-147218638.21377346,147218638.21377346
+X_4,Core 3 state,-470084384.5022531,470084384.5022531
+X_0,frequency level of Little Socket,-522746275.70211506,522746275.70211506
+X_2,Core 1 state,-1068797091.4579843,1068797091.4579843
+X_3,Core 2 state,-1275692183.4677234,1275692183.4677234
+X_6,Core 5 state,-1361994084.222492,1361994084.222492
+
+
+ Ordered by absolute value of coefficients,  the first has the best absolute interaction, with Core 0 state  
+ Variable,meaning ,d_X_1 (Variation relative to Core 0 state),asolute d_X_1
+X_1,Core 0 state,1556928765.080413,1556928765.080413
+X_6,Core 5 state,-1361994084.222492,1361994084.222492
+X_3,Core 2 state,-1275692183.4677234,1275692183.4677234
+X_2,Core 1 state,-1068797091.4579843,1068797091.4579843
+X_7,Medium Socket or core 6 frequency,792967381.9594053,792967381.9594053
+X_0,frequency level of Little Socket,-522746275.70211506,522746275.70211506
+X_4,Core 3 state,-470084384.5022531,470084384.5022531
+X_8,Big Socket or core 7 frequency,175442572.10140774,175442572.10140774
+X_5,Core 4 state,-147218638.21377346,147218638.21377346

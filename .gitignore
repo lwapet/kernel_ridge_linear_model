@@ -1,0 +1,32 @@
+## AL ###
+#Template for AL projects for Dynamics 365 Business Central
+#launch.json folder
+.vscode/
+#Cache folder
+.alcache/
+#Symbols folder
+.alpackages/
+#Snapshots folder
+.snapshots/
+#Testing Output folder
+.output/
+#Extension App-file
+*.app
+#Rapid Application Development File
+rad.json
+#Translation Base-file
+*.g.xlf
+#License-file
+*.flf
+#Test results file
+TestResults.xml
+#venv file 
+venv/
+*log_file.txt*
+
+
+finding_best_input_dataset_size/best_cov_7_strong_interact_3/log_file_compute_static_score_for_the_paper.txt
+finding_best_input_dataset_size/best_cov_7_strong_interact_7/log_file_compute_static_score_for_the_paper.txt
+log_file_compute_static_score_for_the_paper.txt
+log_file_for_the_paper_evaluation_section.txt
+old_scripts_data_and_files/log_file - Copy.txt
